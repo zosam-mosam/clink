@@ -1,16 +1,14 @@
 import React from "react";
-import "../styles/Main.css";
+import "../styles/Main.scss";
 import Menu from "./Menu";
 
 const Main = () => {
   return (
     <div className="main">
-      <div className="mainBackgroundTop"></div>
-      <div className="mainBackgroundBottom">
-        <div className="mainMenu">
-          <Menu />
-        </div>
-        <div className="mainContent"></div>
+      <div className="backgroundTop"></div>
+      <div className="backgroundBottom">
+        <Menu />
+        <div className="content"></div>
       </div>
     </div>
   );
