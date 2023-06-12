@@ -25,6 +25,7 @@
     .menu {
       @include space(20%, 100%, relative);
       // background-color: skyblue;
+      margin: auto auto;
       z-index: 4;
     }
     .content {
