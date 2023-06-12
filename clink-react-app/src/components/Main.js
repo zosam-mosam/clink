@@ -1,13 +1,16 @@
 import React from 'react';
-import '../styles/Main.css';
+import '../styles/Main.scss';
+import NewChallenge from './NewChallenge';
 
 const Main = () => {
   return (
     <div className="main">
-      <div className="mainBackgroundTop"></div>
-      <div className="mainBackgroundBottom">
-        <div className="mainMenu">{/* 메뉴 넣을 자리  */}</div>
-        <div className="mainContent"></div>
+      <div className="backgroundTop"></div>
+      <div className="backgroundBottom">
+        {/* 메뉴 넣을 자리 </div> */}
+        <div className="content">
+          <NewChallenge />
+        </div>
       </div>
     </div>
   );
