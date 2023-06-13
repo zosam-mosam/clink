@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrap{
+    background-color: #1A44F5;
+    display: grid;
+    grid-template-columns: 5vw 50vw 30vw 5vw;
+    justify-content: center;
+}
+.ServiceExplain{
+    grid-column-start: 2;
+    height: 95vh;
+    width: 43vw;
+}
