@@ -1,14 +1,11 @@
-// import './App.css';
-import Index from './components/Index';
-import Login from './components/Login';
-
+import Index from "./components/Index";
+import Login from "./components/Login";
+import FindIdPwd from "./components/FindIdPwd";
 
 function App() {
   return (
     <>
-    <Index>
-      <Login/>
-    </Index>
+      <FindIdPwd />
     </>
   );
 }
