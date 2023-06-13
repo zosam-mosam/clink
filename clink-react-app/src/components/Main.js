@@ -1,7 +1,9 @@
 import React from 'react';
 import '../styles/Main.scss';
 import NewChallenge from './NewChallenge';
-import Menu from "./Menu";
+import Menu from './Menu';
+import UpdateInfo from './UpdateInfo';
+import AccountInfo from './AccountInfo';
 
 const Main = () => {
   return (
@@ -10,7 +12,8 @@ const Main = () => {
       <div className="backgroundBottom">
         <Menu />
         <div className="content">
-          <NewChallenge />
+          <AccountInfo />
+          <UpdateInfo />
         </div>
       </div>
     </div>
