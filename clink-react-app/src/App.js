@@ -17,7 +17,7 @@ const createTitle = () => {
 };
 const createContents = () => {
   const contentList = [];
-  for (let i = 0; i < 5; i++) {
+  for (let i = 0; i < 8; i++) {
     contentList.push({
       id: i,
       date: `date${i}`,
@@ -37,10 +37,16 @@ function App() {
   return (
     // <TableList titles={titles} contents={contents} />
     <div className="App">
+<<<<<<< Updated upstream
       <Main />
 
       {/* <NewChallenge /> */}
       {/* <AccountInfo /> */}
+=======
+      <Main titles={titles} contents={contents} />
+      <NewChallenge />
+      <AccountInfo />
+>>>>>>> Stashed changes
     </div>
   );
 }
