@@ -1,0 +1,8 @@
+.menuButtonList{
+    box-sizing: border-box;
+    width: 100%;
+    padding-top: 1.5vw;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    overflow: hidden;
+  }

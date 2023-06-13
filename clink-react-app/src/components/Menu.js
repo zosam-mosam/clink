@@ -1,11 +1,13 @@
 import React from "react";
 import "../styles/Menu.css";
+import MyInfo from "./MyInfo";
+import MenuButtonList from "./MenuButtonList";
 
 const Menu = () => {
   return (
     <div className="menu">
-      <div className="myInfo"></div>
-      <div className="buttonList"></div>
+      <MyInfo />
+      <MenuButtonList />
     </div>
   );
 };
