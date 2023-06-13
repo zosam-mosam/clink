@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.modalContainer {
+  width: 600px;
+  height: 300px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 10px;
+}
+.quoteForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  & table {
+    border-collapse: collapse;
+    margin-top: 10px;
+    width: 450px;
+    & p {
+        font-size: 20px;
+    }
+        & tr,
+        td {
+
+            border-collapse: collapse;
+            text-align: left;
+            vertical-align: top;
+            padding: 10px
+        }
+        input, textarea {
+            outline: 1px solid black;
+            border:none;
+            &:focus {
+                outline: 2px solid #0046ff;
+                border:none;
+
+            }
+        }
+        input {
+            height: 100%;
+            width: 350px;
+            padding: 5px;
+        }
+        textarea {
+            width: 350px;
+            height: 130px;
+            resize: none;
+        }
+        .quotePerson .quoteInput {
+            padding-top:5px;
+        }
+    }
+}
+
+.buttonDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
