@@ -1,0 +1,31 @@
+.wrap {
+  width: 90%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  form {
+    display: flex;
+    flex-direction: row-reverse;
+    * {
+      border: none;
+      background-color: #f8fafb;
+      height: 40px;
+    }
+    .select1 {
+      width: 100px;
+      margin: 0 10px 0 10px;
+    }
+    .select2 {
+      width: 100px;
+      margin: 0 10px 0 0;
+    }
+    .search {
+      width: 300px;
+    }
+    .subBtn {
+      color: white;
+      width: 100px;
+      background-color: #0046ff;
+    }
+  }
+}

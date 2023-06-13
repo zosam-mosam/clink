@@ -4,7 +4,7 @@ import NewChallenge from './NewChallenge';
 import Menu from "./Menu";
 import Dimmed from './Dimmed';
 
-const Main = () => {
+const Main = ({ titles, contents }) => {
   return (
     <div className="main">
       <div className="backgroundTop"></div>
