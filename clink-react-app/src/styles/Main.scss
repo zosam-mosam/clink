@@ -11,7 +11,7 @@
   @include space(100vw, 100vh, absolute);
   background-color: #f8fafb;
   .backgroundTop {
-    @include space(100%, 30%, relative);
+    @include space(100%, 40%, relative);
     background-color: #0046ff;
     border-radius: 0 0 10px 10px;
     z-index: 2;
@@ -23,9 +23,10 @@
     justify-content: right;
     // margin-right: 5vh;
     .menu {
-      // @include space(20%, 100%, relative);
+      @include space(20%, 100%, relative);
       // background-color: skyblue;
-      // z-index: 4;
+      margin: auto auto;
+      z-index: 4;
     }
     .content {
       @include space(75%, 100%, relative);

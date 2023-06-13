@@ -1,13 +1,14 @@
 import React from 'react';
 import '../styles/Main.scss';
 import NewChallenge from './NewChallenge';
+import Menu from "./Menu";
 
 const Main = () => {
   return (
     <div className="main">
       <div className="backgroundTop"></div>
       <div className="backgroundBottom">
-        {/* 메뉴 넣을 자리 </div> */}
+        <Menu />
         <div className="content">
           <NewChallenge />
         </div>

@@ -1,0 +1,18 @@
+.menuButton{
+    margin-top: 1vw;
+    width: auto;
+    height: 3vw;
+    padding-left: 1vw;
+    
+
+    text-align: left;
+    line-height: 3vw;
+    cursor: pointer;
+  }
+
+.menuButton:hover{
+  
+  border-radius: 20px;
+  background-color: #1b196d;
+  color: white;
+}
