@@ -1,0 +1,74 @@
+.accountInfo {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f8fafb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    color: #9c9c9c;
+  }
+  .consumptionBox {
+    width: 90%;
+    height: 30%;
+    border: 3px solid #0046ff;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    .leftBox {
+      flex-grow: 1.5;
+    }
+    .rightBox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-grow: 3;
+      img {
+        background-image: url('../assets/nong1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 80px;
+        height: 80px;
+      }
+      .accountNum {
+        width: 70%;
+        font-size: 30px;
+      }
+    }
+  }
+  .savingBox {
+    width: 90%;
+    height: 30%;
+    border: 3px solid #0046ff;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    .leftBox {
+      flex-grow: 1.5;
+    }
+    .rightBox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-grow: 3;
+      img {
+        background-image: url('../assets/nong1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 80px;
+        height: 80px;
+        border: none;
+      }
+      .savingNum {
+        width: 70%;
+        font-size: 30px;
+      }
+    }
+  }
+}
