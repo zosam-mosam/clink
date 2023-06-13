@@ -5,7 +5,6 @@ import './App.css';
 import AccountInfo from './components/AccountInfo';
 import Main from './components/Main';
 import NewChallenge from './components/NewChallenge';
-import Fillter from './components/Fillter';
 const createTitle = () => {
   const titleList = [];
   for (let i = 0; i < 4; i++) {
@@ -31,16 +30,17 @@ const createContents = () => {
   }
   return contentList;
 };
+
 function App() {
   const [titles, setTitles] = useState(createTitle);
   const [contents, setContents] = useState(createContents);
   return (
     // <TableList titles={titles} contents={contents} />
     <div className="App">
-      {/* <Main titles={titles} contents={contents} /> */}
+      <Main />
+
       {/* <NewChallenge /> */}
       {/* <AccountInfo /> */}
-      <Fillter />
     </div>
   );
 }
