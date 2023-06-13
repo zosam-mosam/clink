@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import "../styles/css/quoteManagement.scss";
-import Button from "./testbutton";
-export default function UserManagement() {
+import "../../styles/QuoteManagement.scss";
+import Button from "../Button";
+export default function UserManagement(props) {
   const [quote, setQuote] = useState("user");
 
   return (
@@ -19,8 +19,8 @@ export default function UserManagement() {
         </table>
       </form>
       <div className="buttonDiv">
-        <Button></Button>
-        <Button></Button>
+        <Button onClick={props.modalHandler} width="100px" height="50px" backgroundColor="white" color="#438AF4" border="1px solid #438AF4" margin="0px 10px">닫기</Button>
+        <Button width="100px" height="50px" backgroundColor="#438AF4" color="white" border="1px solid #438AF4" margin="0px 10px">추가</Button>
       </div>
     </div>
   );

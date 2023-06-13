@@ -14,6 +14,8 @@ const Button = ({
   background,
   backgroundColor,
   children,
+  color,
+
 }) => {
   return (
     <button
@@ -29,6 +31,8 @@ const Button = ({
         background,
         backgroundColor,
         border,
+        color,
+
       }}
     >
       {children}

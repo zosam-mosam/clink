@@ -10,6 +10,9 @@
     font-size: 24px;
     font-weight: 700;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 .reasonForm {
     display: flex;
