@@ -1,0 +1,57 @@
+.newChallenge {
+  margin: 0 auto;
+  padding: 4em;
+  width: 65%;
+  .header {
+    width: 100%;
+    height: 11vh;
+    // border: 1px solid #9c9c9c;
+    h2 {
+      text-align: left;
+      margin: 0 auto;
+      margin-top: 10vh;
+    }
+  }
+  .title {
+    height: 12vh;
+    .titleText {
+      font-size: 18px;
+      text-align: left;
+      margin-bottom: 10px;
+    }
+  }
+  .promise {
+    height: 12vh;
+    .promiseText {
+      font-size: 18px;
+      text-align: left;
+      margin-bottom: 10px;
+    }
+  }
+  .duration {
+    height: 13vh;
+    .durationText {
+      font-size: 18px;
+      text-align: left;
+      margin-bottom: 10px;
+    }
+    .buttonList {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  .moneyRange {
+    height: 13vh;
+    .moneyRangeText {
+      font-size: 18px;
+      text-align: left;
+      margin-bottom: 10px;
+    }
+  }
+  input {
+    border: 1px solid #9c9c9c;
+    border-radius: 5px;
+    width: 100%;
+    height: 4.5vh;
+  }
+}

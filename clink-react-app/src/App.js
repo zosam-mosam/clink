@@ -1,23 +1,52 @@
-import logo from './logo.svg';
+import { useState } from 'react';
+import TableList from './components/TableChart';
+import './styles/css/TableChart.scss';
 import './App.css';
+import AccountInfo from './components/AccountInfo';
+import Main from './components/Main';
+import NewChallenge from './components/NewChallenge';
+const createTitle = () => {
+  const titleList = [];
+  for (let i = 0; i < 4; i++) {
+    titleList.push({
+      id: i,
+      title: `title${i}`,
+    });
+  }
+  return titleList;
+};
+const createContents = () => {
+  const contentList = [];
+  for (let i = 0; i < 8; i++) {
+    contentList.push({
+      id: i,
+      date: `date${i}`,
+      category: `category${i}`,
+      content: `content${i}`,
+      price: `price${i}`,
+    });
+    // console.log(contentList[i]);
+    // console.log(Object.values(contentList[i])[1]);
+  }
+  return contentList;
+};
 
 function App() {
+  const [titles, setTitles] = useState(createTitle);
+  const [contents, setContents] = useState(createContents);
   return (
+    // <TableList titles={titles} contents={contents} />
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+<<<<<<< Updated upstream
+      <Main />
+
+      {/* <NewChallenge /> */}
+      {/* <AccountInfo /> */}
+=======
+      <Main titles={titles} contents={contents} />
+      <NewChallenge />
+      <AccountInfo />
+>>>>>>> Stashed changes
     </div>
   );
 }
