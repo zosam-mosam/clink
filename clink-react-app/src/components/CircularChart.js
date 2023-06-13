@@ -1,25 +1,28 @@
 import React from "react";
-import { PieChart } from "react-minimal-pie-chart";
+import { Chart } from "react-google-charts";
 import "../styles/CircularChart.scss";
 
 const CircularChart = () => {
   const data = [
-    { title: "One", value: 20, color: "#2ecb7b" },
-    { title: "Two", value: 35, color: "#f45bae" },
-    { title: "Three", value: 50, color: "#4b5ff5" },
+    ["title", "value"],
+    ["식품", 20],
+    ["교통비", 35],
+    ["주거비", 50],
   ];
+
+  const options = {
+    legend: "none",
+    pieSliceText: "label",
+  };
+
   return (
     <div className="circularChart">
-      <PieChart
-        data={data} //값
-        label={({ dataEntry }) => dataEntry.title} //글씨
-        lineWidth={50} //도넛 두께
-        labelPosition={76} //글씨 적히는 위치
-        labelStyle={{
-          //글씨 스타일
-          fontSize: "10px",
-        }}
-        animate
+      <Chart
+        chartType="PieChart"
+        data={data}
+        options={options}
+        width="350px"
+        height="350px"
       />
     </div>
   );
