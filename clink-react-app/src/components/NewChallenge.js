@@ -26,6 +26,7 @@ const NewChallenge = () => {
           </div>
         </div>
         <div className="moneyRange">
+          {/* 목표금액 계산해서 알려주기 */}
           <div className="moneyRangeText">목표금액</div>
           <input type="range" min="0" max="50000"></input>
         </div>

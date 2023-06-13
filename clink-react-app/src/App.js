@@ -2,13 +2,15 @@ import './App.css';
 import AccountInfo from './components/AccountInfo';
 import Main from './components/Main';
 import NewChallenge from './components/NewChallenge';
+import UpdateInfo from './components/UpdateInfo';
 
 function App() {
   return (
     <div className="App">
-      {/* <Main /> */}
+      <Main />
+
       {/* <NewChallenge /> */}
-      <AccountInfo />
+      {/* <AccountInfo /> */}
     </div>
   );
 }
