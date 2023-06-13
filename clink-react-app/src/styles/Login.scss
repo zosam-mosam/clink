@@ -1,0 +1,35 @@
+.login{
+    grid-column-start: 3;
+    background-color: #BACBF8;
+    border-radius: 5%;
+    height: 70vh;
+    width: 25vw;
+    margin-top: 15vh;
+}
+.loginTitle{
+    margin-top: 4vh;
+    text-align: center;
+    font-size: 2vh;
+    font-weight: bold;
+}
+.inputBox{
+    margin-left: 3vw;
+    font-size: 2vh;
+}
+.btn-login{
+    display: grid;
+    justify-content: center;
+    background-color: #1A44F5;
+    margin-left: 3vw;
+    width: 38vh;
+    height: 4vh;
+    text-align: center;
+    border-style: none;
+    color:white;
+    font-size: 3vh;
+
+}
+input{
+    width: 38vh;
+    height: 3vh;
+}
