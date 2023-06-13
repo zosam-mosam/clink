@@ -1,5 +1,6 @@
-import React from "react";
-import "../styles/Main.scss";
+import React from 'react';
+import '../styles/Main.scss';
+import NewChallenge from './NewChallenge';
 import Menu from "./Menu";
 
 const Main = () => {
@@ -8,7 +9,9 @@ const Main = () => {
       <div className="backgroundTop"></div>
       <div className="backgroundBottom">
         <Menu />
-        <div className="content"></div>
+        <div className="content">
+          <NewChallenge />
+        </div>
       </div>
     </div>
   );
