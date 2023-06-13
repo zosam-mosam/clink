@@ -4,6 +4,7 @@ import NewChallenge from './NewChallenge';
 import Menu from './Menu';
 import UpdateInfo from './UpdateInfo';
 import AccountInfo from './AccountInfo';
+import MyPage from './MyPage';
 
 const Main = () => {
   return (
@@ -12,8 +13,7 @@ const Main = () => {
       <div className="backgroundBottom">
         <Menu />
         <div className="content">
-          <AccountInfo />
-          <UpdateInfo />
+          <MyPage/>
         </div>
       </div>
     </div>
