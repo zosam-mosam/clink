@@ -2,7 +2,6 @@ import { useState } from 'react';
 import TableList from './components/TableChart';
 import './styles/css/TableChart.scss';
 import './App.css';
-import AccountInfo from './components/AccountInfo';
 import Main from './components/Main';
 import NewChallenge from './components/NewChallenge';
 const createTitle = () => {
@@ -37,18 +36,16 @@ function App() {
   return (
     // <TableList titles={titles} contents={contents} />
     <div className="App">
-<<<<<<< Updated upstream
       <Main />
 
       {/* <NewChallenge /> */}
       {/* <AccountInfo /> */}
-=======
       <Main titles={titles} contents={contents} />
       <NewChallenge />
-      <AccountInfo />
->>>>>>> Stashed changes
+
     </div>
   );
 }
 
 export default App;
+
