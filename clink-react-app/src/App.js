@@ -1,14 +1,10 @@
-import './App.css';
-import AccountInfo from './components/AccountInfo';
-import Main from './components/Main';
-import NewChallenge from './components/NewChallenge';
+import "./App.css";
+import Main from "./components/Main";
 
 function App() {
   return (
     <div className="App">
-      {/* <Main /> */}
-      {/* <NewChallenge /> */}
-      <AccountInfo />
+      <Main />
     </div>
   );
 }
