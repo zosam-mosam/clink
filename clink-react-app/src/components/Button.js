@@ -12,11 +12,9 @@ const Button = ({
   onClick,
   background,
   backgroundColor,
-  color,
   border,
   children,
   color,
-
 }) => {
   return (
     <button
@@ -32,7 +30,7 @@ const Button = ({
         background,
         backgroundColor,
         border,
-        color
+        color,
       }}
     >
       {children}
