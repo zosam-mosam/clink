@@ -1,10 +1,10 @@
-import Main from './components/Main';
-import './styles/css/TableChart.scss';
-import './App.css';
-import BarChartEX from './components/BarChart';
-import { useState } from 'react';
-import TableList from './components/TableChart';
-import React from 'react';
+
+import "./App.css";
+import React, { useState } from "react";
+import Index from "./components/Index";
+import Login from "./components/Login";
+import Join from "./components/Join";
+import FindIdPwd from "./components/FindIdPwd";
 
 //동우: main Component로 더미데이터 옮기기
 const createTitle = () => {
@@ -36,14 +36,13 @@ function App() {
   const [titles, setTitles] = useState(createTitle);
   const [contents, setContents] = useState(createContents);
   return (
-
-    // <TableList titles={titles} contents={contents} />
-
-    // <Main titles={titles} contents={contents} />
-    <div className="App">
-      <Main titles={titles} contents={contents} />
-    </div>
-
+    <>
+      <Index>
+        <Login />
+      </Index>
+      <Join />
+      <FindIdPwd />
+    </>
   );
 }
 export default App;
