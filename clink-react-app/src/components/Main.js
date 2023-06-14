@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/Main.scss";
 import Menu from "./Menu";
 import MyChallenge from "./MyChallenge";
+import Home from "./Home";
 
 const Main = () => {
   return (
@@ -10,7 +11,8 @@ const Main = () => {
       <div className="backgroundBottom">
         <Menu />
         <div className="content">
-          <MyChallenge />
+          {/* <MyChallenge /> */}
+          <Home />
         </div>
       </div>
     </div>
