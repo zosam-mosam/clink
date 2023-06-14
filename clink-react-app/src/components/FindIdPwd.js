@@ -7,13 +7,13 @@ const handleSubmit = (event) => {
 
 const findIdBtn = () => {};
 
-const FindIdPwd = (props) => {
+const FindIdPwd = () => {
   return (
     <>
       <div className="findIdPwdWrap">
         <div className="findIdPwd">
           <div className="innerWrap">
-            <h3>{props.content[0]}</h3>
+            <h3>ID 찾기</h3>
             <br />
             <div className="findIdPwd_textBox">
               회원 가입 시 입력하신 이름 + 이메일로
