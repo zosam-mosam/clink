@@ -2,9 +2,9 @@ import React from 'react';
 import '../styles/Main.scss';
 import NewChallenge from './NewChallenge';
 import Menu from './Menu';
-// import Dimmed from './Dimmed';
 import TableList from './TableChart';
 import Fillter from './Fillter';
+import Dimmed from './Dimmed';
 const Main = ({ titles, contents }) => {
   return (
     <div className="main">
@@ -19,6 +19,7 @@ const Main = ({ titles, contents }) => {
           <NewChallenge />
           <Fillter />
           <TableList titles={titles} contents={contents} />
+          <Dimmed backgroundColor="#a1a1a17c" titles={titles} contents={contents}></Dimmed> 
         </div>
       </div>
     </div>

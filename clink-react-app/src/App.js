@@ -35,6 +35,7 @@ function App() {
   const [contents, setContents] = useState(createContents);
   return (
     // <TableList titles={titles} contents={contents} />
+
     // <Main titles={titles} contents={contents} />
     <div className="App"></div>
   );
