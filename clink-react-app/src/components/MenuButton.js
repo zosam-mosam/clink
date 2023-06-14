@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../styles/MenuButton.css";
+import "../styles/MenuButton.scss";
 
 const MenuButton = ({ disabledImgSrc, activeImgSrc, children }) => {
   const [IsHover, setIsHover] = useState(false);

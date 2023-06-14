@@ -1,9 +1,8 @@
-import React from 'react';
-import '../styles/Main.scss';
-import NewChallenge from './NewChallenge';
-import Menu from './Menu';
-import UpdateInfo from './UpdateInfo';
-import AccountInfo from './AccountInfo';
+import React from "react";
+import "../styles/Main.scss";
+import Menu from "./Menu";
+import MyChallenge from "./MyChallenge";
+import Home from "./Home";
 
 const Main = () => {
   return (
@@ -12,8 +11,8 @@ const Main = () => {
       <div className="backgroundBottom">
         <Menu />
         <div className="content">
-          <AccountInfo />
-          <UpdateInfo />
+          {/* <MyChallenge /> */}
+          <Home />
         </div>
       </div>
     </div>
