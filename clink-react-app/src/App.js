@@ -1,25 +1,43 @@
-import logo from './logo.svg';
+import './styles/css/TableChart.scss';
 import './App.css';
+import BarChartEX from './components/BarChart';
+import { useState } from 'react';
+import TableList from './components/TableChart';
+import React from 'react';
 
+const createTitle = () => {
+  const titleList = [];
+  for (let i = 0; i < 4; i++) {
+    titleList.push({
+      id: i,
+      title: `title${i}`,
+    });
+  }
+  return titleList;
+};
+const createContents = () => {
+  const contentList = [];
+  for (let i = 0; i < 8; i++) {
+    contentList.push({
+      id: i,
+      date: `date${i}`,
+      category: `category${i}`,
+      content: `content${i}`,
+      price: `price${i}`,
+    });
+    // console.log(contentList[i]);
+    // console.log(Object.values(contentList[i])[1]);
+  }
+  return contentList;
+};
 function App() {
+  const [titles, setTitles] = useState(createTitle);
+  const [contents, setContents] = useState(createContents);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // <TableList titles={titles} contents={contents} />
+
+    // <Main titles={titles} contents={contents} />
+    <div className="App"></div>
   );
 }
-
 export default App;
