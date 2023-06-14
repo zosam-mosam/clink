@@ -3,7 +3,7 @@
   height: 100%;
   display: flex;
   justify-content: center;
-  align-items:end;
+  align-items: end;
   h1 {
     font-size: 25px;
   }
@@ -11,31 +11,31 @@
     color: #9c9c9c;
     background-color: #9c9c9c00;
   }
-    .consumptionBox{
-      width: 90%;
-      height: 70%;
-      border: 2px solid #0046ff;
-      background-color: #ffffff;
-      border-radius: 10px;
-      margin-bottom: 20px;
+  .addAccount_consumptionBox {
+    width: 90%;
+    height: 70%;
+    border: 2px solid #0046ff;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    .addAccount_leftBox {
+      flex-grow: 1.5;
+      height: 50px;
+    }
+    .addAccount_rightBox {
       display: flex;
+      justify-content: center;
       align-items: center;
-      .leftBox {
-        flex-grow: 1.5;
-        height: 50px;
-      }
-      .rightBox {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-grow: 3;
-        button{
-          background-color:#9c9c9c00;
-          border:none;
-          font-size: 25px;
-          color: #0046ff;
-          font-weight: 800;
-        }
+      flex-grow: 3;
+      button {
+        background-color: #9c9c9c00;
+        border: none;
+        font-size: 25px;
+        color: #0046ff;
+        font-weight: 800;
       }
     }
   }
+}

@@ -10,13 +10,13 @@
 .main {
   @include space(100vw, 100vh, absolute);
   background-color: #f8fafb;
-  .backgroundTop {
+  .main_backgroundTop {
     @include space(100%, 40%, relative);
     background-color: #0046ff;
     border-radius: 0 0 10px 10px;
     z-index: 2;
   }
-  .backgroundBottom {
+  .main_backgroundBottom {
     @include space(100%, 90%, absolute);
     bottom: 3%;
     display: flex;
@@ -28,7 +28,7 @@
       margin: auto auto;
       z-index: 4;
     }
-    .content {
+    .main_content {
       @include space(75%, 100%, relative);
       background-color: #ffffff;
       z-index: 4;

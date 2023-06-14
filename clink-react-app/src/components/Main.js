@@ -9,11 +9,12 @@ import MyPage from './MyPage';
 const Main = () => {
   return (
     <div className="main">
-      <div className="backgroundTop"></div>
-      <div className="backgroundBottom">
+      <div className="main_backgroundTop"></div>
+      <div className="main_backgroundBottom">
         <Menu />
-        <div className="content">
-          <MyPage/>
+        <div className="main_content">
+          {/* <MyPage /> */}
+          <NewChallenge />
         </div>
       </div>
     </div>

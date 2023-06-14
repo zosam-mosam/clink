@@ -12,7 +12,7 @@
     color: #9c9c9c;
     background-color: #9c9c9c00;
   }
-  .consumptionBox {
+  .showAccount_consumptionBox {
     width: 90%;
     height: 70%;
     border: 2px solid #0046ff;
@@ -21,11 +21,11 @@
     margin-bottom: 20px;
     display: flex;
     align-items: center;
-    .leftBox {
+    .showAccount_leftBox {
       flex-grow: 1.5;
       height: 50px;
     }
-    .rightBox {
+    .showAccount_rightBox {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -39,7 +39,7 @@
         height: 25px;
       }
   }
-  .accountNum {
+  .showAccount_accountNum {
     width: 70%;
     font-size: 18px;
   }
