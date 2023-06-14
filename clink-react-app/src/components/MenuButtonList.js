@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/MenuButtonList.css";
+import "../styles/MenuButtonList.scss";
 import MenuButton from "./MenuButton";
 import targetDisabled from "../assets/targetDisabled.jpg";
 import homeDisabled from "../assets/homeDisabled.png";

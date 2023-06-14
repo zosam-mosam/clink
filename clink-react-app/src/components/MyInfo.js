@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/MyInfo.css";
+import "../styles/MyInfo.scss";
 import basicPhoto from "../assets/basicPhoto.png";
 
 const MyInfo = () => {
