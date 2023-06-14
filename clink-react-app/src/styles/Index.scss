@@ -7,6 +7,7 @@
     display: grid;
     grid-template-columns: 5vw 50vw 30vw 5vw;
     justify-content: center;
+    height:100vh;
 }
 .ServiceExplain{
     grid-column-start: 2;
