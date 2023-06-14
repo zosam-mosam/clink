@@ -15,8 +15,6 @@ const Button = ({
   color,
   border,
   children,
-  color,
-
 }) => {
   return (
     <button

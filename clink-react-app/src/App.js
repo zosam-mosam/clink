@@ -36,12 +36,13 @@ function App() {
   return (
     // <TableList titles={titles} contents={contents} />
     <div className="App">
-      <Main />
+      {/* <Main /> */}
 
       {/* <NewChallenge /> */}
       {/* <AccountInfo /> */}
-      <Main titles={titles} contents={contents} />
+      <Main titles={titles} contents={contents}/>
       <NewChallenge />
+      
 
     </div>
   );
