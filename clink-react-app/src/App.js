@@ -1,19 +1,18 @@
-
-// import './App.css';
-// import Index from './components/Index';
-// import Login from './components/Login';
-import Join from './components/Join';
-
+import "./App.css";
+import React, { useState } from "react";
+import Index from "./components/Index";
+import Login from "./components/Login";
+import Join from "./components/Join";
+import FindIdPwd from "./components/FindIdPwd";
 
 function App() {
-  const [content, setContent] = useState(["ID 찾기", "내용", "name"]);
-
   return (
     <>
-    {/* <Index>
-      <Login/>
-    </Index> */}
-    <Join/>
+      <Index>
+        <Login />
+      </Index>
+      <Join />
+      <FindIdPwd />
     </>
   );
 }
