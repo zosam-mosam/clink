@@ -1,9 +1,10 @@
-import { useState } from 'react';
-import TableList from './components/TableChart';
 import './styles/css/TableChart.scss';
 import './App.css';
-import Main from './components/Main';
-import NewChallenge from './components/NewChallenge';
+import BarChartEX from './components/BarChart';
+import { useState } from 'react';
+import TableList from './components/TableChart';
+import React from 'react';
+
 const createTitle = () => {
   const titleList = [];
   for (let i = 0; i < 4; i++) {
@@ -29,24 +30,14 @@ const createContents = () => {
   }
   return contentList;
 };
-
 function App() {
   const [titles, setTitles] = useState(createTitle);
   const [contents, setContents] = useState(createContents);
   return (
     // <TableList titles={titles} contents={contents} />
-    <div className="App">
-      {/* <Main /> */}
 
-      {/* <NewChallenge /> */}
-      {/* <AccountInfo /> */}
-      <Main titles={titles} contents={contents}/>
-      <NewChallenge />
-      
-
-    </div>
+    // <Main titles={titles} contents={contents} />
+    <div className="App"></div>
   );
 }
-
 export default App;
-
