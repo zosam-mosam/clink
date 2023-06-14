@@ -13,6 +13,8 @@ const CircularChart = () => {
   const options = {
     legend: "none",
     pieSliceText: "label",
+    pieHole: 0.4,
+    colors: ["#f44caa", "#4d5ff3", "#33cd7c"],
   };
 
   return (
