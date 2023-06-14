@@ -3,6 +3,7 @@ import '../styles/Main.scss';
 import NewChallenge from './NewChallenge';
 import Menu from "./Menu";
 import Dimmed from './Dimmed';
+import TableList from './TableChart';
 
 const Main = ({ titles, contents }) => {
   return (
@@ -14,7 +15,9 @@ const Main = ({ titles, contents }) => {
           {/* <NewChallenge /> */}
           {/* admin test */}
           {/* 개인정보 중요한 화면이면 background없이 dimmed만 */}
-          <Dimmed backgroundColor="#a1a1a17c"></Dimmed> 
+          <Dimmed backgroundColor="#a1a1a17c" titles={titles} contents={contents}></Dimmed> 
+          
+          
         </div>
       </div>
     </div>
