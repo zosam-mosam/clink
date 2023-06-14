@@ -2,23 +2,23 @@
   width: 100%;
   height: 68%;
 
-  .container {
-    width: 95%;
+  .updateInfo_container {
+    width: 90%;
     height: 90%;
     margin: 0 auto;
     background-color: #f8fafb;
     border-radius: 10px;
-    .header {
+    .updateInfo_header {
       width: 90%;
       height: 20%;
       display: flex;
-      .headerBox {
+      .updateInfo_headerBox {
         width: 20em;
         display: flex;
         margin-left: 8em;
         align-items: center;
 
-        .image {
+        .updateInfo_image {
           margin: 5vh auto 3vh auto;
           width: 70px;
           height: 70px;
@@ -32,12 +32,12 @@
             height: 50px;
           }
         }
-        .buttonBox {
+        .updateInfo_buttonBox {
           margin-top: 5em;
         }
       }
     }
-    .updateInfoMain {
+    .updateInfo_main {
       width: 100%;
       height: 75%;
       margin: 0 auto;
@@ -45,13 +45,13 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      .id,
-      .nickName,
-      .name,
-      .address,
-      .pwd,
-      .confirmPwd,
-      .btn {
+      .updateInfo_id,
+      .updateInfo_nickName,
+      .updateInfo_name,
+      .updateInfo_address,
+      .updateInfo_pwd,
+      .updateInfo_confirmPwd,
+      .updateInfo_btn {
         width: 60%;
         height: 6%;
         display: flex;
@@ -63,11 +63,10 @@
           font-size: 20px;
         }
       }
-      .btn {
+      .updateInfo_btn {
         justify-content: center;
-        button{
-            margin-top: 20px;
-
+        button {
+          margin-top: 20px;
         }
       }
       input {

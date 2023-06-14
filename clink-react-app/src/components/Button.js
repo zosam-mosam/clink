@@ -13,6 +13,7 @@ const Button = ({
   background,
   backgroundColor,
   color,
+  fontSize,
   border,
   children,
 }) => {
@@ -30,7 +31,8 @@ const Button = ({
         background,
         backgroundColor,
         border,
-        color
+        color,
+        fontSize
       }}
     >
       {children}

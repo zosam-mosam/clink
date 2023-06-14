@@ -4,11 +4,12 @@ import Menu from "./Menu";
 import MyChallenge from "./MyChallenge";
 import Home from "./Home";
 
+
 const Main = () => {
   return (
     <div className="main">
-      <div className="backgroundTop"></div>
-      <div className="backgroundBottom">
+      <div className="main_backgroundTop"></div>
+      <div className="main_backgroundBottom">
         <Menu />
         <div className="content">
           {/* <MyChallenge /> */}
