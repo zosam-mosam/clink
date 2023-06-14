@@ -1,10 +1,6 @@
-
 import "./App.css";
 import React, { useState } from "react";
-import Index from "./components/Index";
-import Login from "./components/Login";
-import Join from "./components/Join";
-import FindIdPwd from "./components/FindIdPwd";
+import Main from "./components/Main";
 
 //동우: main Component로 더미데이터 옮기기
 const createTitle = () => {
@@ -37,11 +33,7 @@ function App() {
   const [contents, setContents] = useState(createContents);
   return (
     <>
-      <Index>
-        <Login />
-      </Index>
-      <Join />
-      <FindIdPwd />
+      <Main />
     </>
   );
 }

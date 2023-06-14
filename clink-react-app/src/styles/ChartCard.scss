@@ -11,6 +11,7 @@
     padding-left: 2vh;
     padding-right: 2vh;
     padding-top: 4vh;
+    text-align: center;
     
     #title{
       font-weight: bold;
@@ -27,5 +28,9 @@
     padding-left: 2vh;
     padding-right: 2vh;
     overflow: visible;
+
+    div{
+      margin: 0 auto;
+    }
   }
 }
