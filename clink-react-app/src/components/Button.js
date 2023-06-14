@@ -4,7 +4,6 @@ import '../styles/Button.scss';
 const Button = ({
   type = 'button',
   className,
-  border,
   width,
   height,
   margin,
@@ -13,6 +12,8 @@ const Button = ({
   onClick,
   background,
   backgroundColor,
+  color,
+  border,
   children,
 }) => {
   return (
@@ -29,6 +30,7 @@ const Button = ({
         background,
         backgroundColor,
         border,
+        color
       }}
     >
       {children}

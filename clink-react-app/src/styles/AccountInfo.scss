@@ -1,74 +1,72 @@
 .accountInfo {
-  width: 100vw;
-  height: 100vh;
-  background-color: #f8fafb;
+  width: 100%;
+  height: 35%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   h1 {
-    font-size: 40px;
+    font-size: 25px;
   }
-  h2 {
+  h3 {
     color: #9c9c9c;
+    background-color: #9c9c9c00;
   }
-  .consumptionBox {
-    width: 90%;
-    height: 30%;
-    border: 3px solid #0046ff;
-    border-radius: 10px;
-    margin-bottom: 50px;
+  .container {
+    width: 95%;
+    height: 85%;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    .leftBox {
-      flex-grow: 1.5;
-    }
-    .rightBox {
+    background-color: #f8fafb;
+    .consumptionBox,
+    .savingBox {
+      width: 90%;
+      height: 40%;
+      border: 2px solid #0046ff;
+      background-color: #ffffff;
+      border-radius: 10px;
+      margin-bottom: 20px;
       display: flex;
-      justify-content: center;
       align-items: center;
-      flex-grow: 3;
+      .leftBox {
+        flex-grow: 1.5;
+        height: 50px;
+      }
+      .rightBox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 3;
+      }
+    }
+    .consumptionBox {
       img {
         background-image: url('../assets/nong1.png');
         background-repeat: no-repeat;
         background-size: cover;
-        width: 80px;
-        height: 80px;
-      }
-      .accountNum {
-        width: 70%;
-        font-size: 30px;
+        width: 25px;
+        height: 25px;
       }
     }
-  }
-  .savingBox {
-    width: 90%;
-    height: 30%;
-    border: 3px solid #0046ff;
-    border-radius: 10px;
-    margin-bottom: 50px;
-    display: flex;
-    align-items: center;
-    .leftBox {
-      flex-grow: 1.5;
+
+    .savingBox {
+      .rightBox {
+        img {
+          background-image: url('../assets/nong1.png');
+          background-repeat: no-repeat;
+          background-size: cover;
+          width: 25px;
+          height: 25px;
+          border: none;
+        }
+      }
     }
-    .rightBox {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-grow: 3;
-      img {
-        background-image: url('../assets/nong1.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 80px;
-        height: 80px;
-        border: none;
-      }
-      .savingNum {
-        width: 70%;
-        font-size: 30px;
-      }
+    .savingNum,
+    .accountNum {
+      width: 70%;
+      font-size: 18px;
     }
   }
 }
