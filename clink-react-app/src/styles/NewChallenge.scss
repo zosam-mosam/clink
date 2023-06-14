@@ -1,0 +1,57 @@
+.newChallenge {
+  margin: 0 auto;
+  padding: 4em;
+  width: 75%;
+  // height: 100%;
+  .newChallenge_header {
+    width: 100%;
+    height: 11vh;
+    h1 {
+      text-align: left;
+      margin: 0 auto;
+      margin-top: 10vh;
+    }
+  }
+  .newChallenge_title {
+    height: 12vh;
+    .newChallenge_titleText {
+      font-size: 18px;
+      text-align: left;
+      margin-bottom: 10px;
+    }
+  }
+  .newChallenge_promise {
+    height: 12vh;
+    .newChallenge_promiseText {
+      font-size: 18px;
+      text-align: left;
+      margin-bottom: 10px;
+    }
+  }
+  .newChallenge_duration {
+    height: 13vh;
+    .newChallenge_durationText {
+      font-size: 18px;
+      text-align: left;
+      margin-bottom: 10px;
+    }
+    .newChallenge_buttonList {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  .newChallenge_moneyRange {
+    height: 13vh;
+    .newChallenge_moneyRangeText {
+      font-size: 18px;
+      text-align: left;
+      margin-bottom: 10px;
+    }
+  }
+  input {
+    border: 1px solid #9c9c9c;
+    border-radius: 5px;
+    width: 100%;
+    height: 4.5vh;
+  }
+}
