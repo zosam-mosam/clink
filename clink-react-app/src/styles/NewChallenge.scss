@@ -38,6 +38,10 @@
     .newChallenge_buttonList {
       display: flex;
       justify-content: space-between;
+      button {
+        // background-color: #ffffff;
+        // color: black;
+      }
     }
   }
   .newChallenge_moneyRange {
@@ -54,4 +58,8 @@
     width: 100%;
     height: 4.5vh;
   }
+
+}
+.newChallenge_duration_btn:checked {
+  background-color: #0046ff;
 }
